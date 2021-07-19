@@ -47,7 +47,7 @@ for (let i = 0; i < 11; i++) {
 
   li.style.width = `${size}px`;
   li.style.height = `${size}px`;
-  li.style.bottom = `-${size}px`;
+  li.style.bottom = `-${size + 150}px`;
   li.style.left = `${position}%`;
   li.style.animationDelay = `${delay}s`;
   li.style.animationDuration = `${duration}s`;
